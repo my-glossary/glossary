@@ -78,3 +78,11 @@ We need to add the remote origin to the project
    git config user.name "Sergei Mikurov"
 
    git remote add origin git@github.com-mikurov_sergey:mikurov_sergey
+
+.. code-block:: console
+   :caption: Push glossary to mikurov_sergey
+
+   git config user.email "mikurov_sergey@mail.ru"
+   git config user.name "Sergei Mikurov"
+   git remote set-url origin git@github.com-mikurov_sergey:my-glossary/glossary.git
+   git push -u origin main
