@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "glossary"
+version = "0.1.0"
+description = ""
+authors = ["Sergei Mikurov <454004@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sphinx = "^7.4.7"
+sphinx-copybutton = "^0.5.2"
+furo = "^2024.8.6"
+
+
+[tool.poetry.group.typing.dependencies]
+mypy = "^1.11.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
