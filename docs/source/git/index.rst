@@ -6,5 +6,6 @@ Git
    :maxdepth: 2
 
    branches
+   commits
    show
    grep

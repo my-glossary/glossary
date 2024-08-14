@@ -5,4 +5,5 @@ Postgres
 .. toctree::
    :maxdepth: 2
 
-   cli
+   console_cli
+   postgres_cli

@@ -10,6 +10,11 @@ Managing multiple accounts
    ssh-keygen -t rsa -C "454004@mail.ru" -f "454004"
    ssh-keygen -t rsa -C "mikurov_sergey@mail.ru" -f "mikurov_sergey"
 
+.. code-block:: python
+   :caption: Start ssh-agent
+
+   eval "$(ssh-agent -s)"
+
 .. code-block:: console
    :caption: Добавление SSH keys в SSH Agent
 
@@ -43,7 +48,7 @@ Paste the public key on Github
         User git
         IdentityFile ~/.ssh/454004
 
-   #rahul-personal account
+   #mikurov_sergwy account
    Host github.com-mikurov_sergey
         HostName github.com
         User git
@@ -70,6 +75,9 @@ We need to add the remote origin to the project
    git config user.name "Sergei Mikurov"
 
    git remote add origin git@github.com-454004:454004
+   # or
+   git remote set-url origin git@github.com-454004:svmikurov/wselfedu.git
+   git push --force
 
 .. code-block:: console
    :caption: Для repo на аккаунте mikurov_sergey
