@@ -1,6 +1,6 @@
-===========
+***********
 Полиморфизм
-===========
+***********
 
    - способность объектов разных типов обрабатываться как объекты одного типа.
 
@@ -247,3 +247,72 @@
    Обрабатывает **объекты** разных типов одинаковым образом.
 
 Использует одноименные методы разных объектов.
+
+================================
+Код, который убивает полиморфизм
+================================
+
+`Hexlet / Код, который убивает полиморфизм <https://ru.hexlet.io/courses/python-polymorphism/lessons/breaking-polymorphism/theory_unit>`_
+
+Формирование объектов
+=====================
+
+   Полиморфизм возможен, когда объект передается в функцию извне,
+   а не создается внутри нее.
+
+.. code-block:: python
+   :caption: Формирование объекта внутри функции ``say_hi_by_email``
+   :emphasize-lines: 12
+
+   class EmailSender:
+       def send(self, email, message):
+           return f"Sending '{message}' to {email}"
+
+   class User:
+       def __init__(self, email):
+           self.email = email
+       def get_email(self):
+            return self.email
+
+   def say_hi_by_email(user):
+       sender = EmailSender()
+       return sender.send(user.get_email(), "Hi!")
+
+Проверка типов
+==============
+   Код теперь опирается на методы, а не на типы.
+
+.. code-block:: python
+   :caption: ОШИБКА: поведение определяется не объектом, а функцией
+             функции ``say_hi`` (проверяется тип объекта)
+   :emphasize-lines: 9, 11
+
+   class User:
+    def __init__(self, name):
+        self.name = name
+
+   class Guest:
+       pass
+
+   def say_hi(user):
+       if isinstance(user, User):
+           return f"Hello, {user.name}!"
+       elif isinstance(user, Guest):
+           return "Hello, guest!"
+       else:
+           return "Who are you?"
+
+.. code-block:: python
+   :caption: РЕШЕНИЕ: введение нового интерфейса в виде методов is_user и is_guest
+   :emphasize-lines: 2, 4
+
+   def say_hi(user):
+       if user.is_user():
+           return f"Hello, {user.name}!"
+       elif user.is_guest():
+           return "Hello, guest!"
+       else:
+           return "Who are you?"
+
+Слишком много условий
+=====================

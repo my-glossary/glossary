@@ -3,9 +3,9 @@ OOP
 ###
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    oop
    solid
-   polymorphism.rst
+   polymorphism
    design_patterns

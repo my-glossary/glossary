@@ -6,6 +6,7 @@ Glossary documentation
    :maxdepth: 2
 
    python/index
+   django/index
    sphinx/index
    docstring/index
    annotation/index

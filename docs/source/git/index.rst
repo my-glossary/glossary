@@ -9,3 +9,4 @@ Git
    commits
    show
    grep
+   origin

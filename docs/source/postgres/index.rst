@@ -7,3 +7,4 @@ Postgres
 
    console_cli
    postgres_cli
+   sql_query_examples

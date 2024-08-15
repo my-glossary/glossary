@@ -69,6 +69,14 @@ To push or pull to the correct account
 We need to add the remote origin to the project
 
 .. code-block:: console
+   :caption: Для нового repo на аккаунте 454004
+
+   git commit -m "first commit"
+   git branch -M main
+   git remote add origin git@github.com-454004:svmikurov/new-project.git
+   git push -u origin main
+
+.. code-block:: console
    :caption: Для repo на аккаунте 454004
 
    git config user.email "454004@mail.ru"
