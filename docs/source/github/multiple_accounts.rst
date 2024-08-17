@@ -84,7 +84,7 @@ We need to add the remote origin to the project
 
    git remote add origin git@github.com-454004:454004
    # or
-   git remote set-url origin git@github.com-454004:svmikurov/wselfedu.git
+   git remote set-url origin git@github.com-454004:svmikurov/project-name.git
    git push --force
 
 .. code-block:: console

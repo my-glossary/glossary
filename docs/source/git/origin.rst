@@ -16,7 +16,7 @@ origin
 
    git config user.email "454004@mail.ru"
    git config user.name "Sergei Mikurov"
-   git remote set-url origin git@github.com-454004:svmikurov/wselfedu.git
+   git remote set-url origin git@github.com-454004:svmikurov/project-name.git
    git push --force
 
 .. code-block:: console
