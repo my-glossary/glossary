@@ -5,8 +5,8 @@ Getting started
 To configure Sphinx, see the :ref:`Sphinx configuration` and
 :ref:`Sphinx packages` sections.
 
-Install
-^^^^^^^
+Install sphinx
+^^^^^^^^^^^^^^
 
 `source install <https://www.sphinx-doc.org/en/master/tutorial/getting-started.html#setting-up-your-project-and-development-environment>`_
 

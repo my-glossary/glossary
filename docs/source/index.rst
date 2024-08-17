@@ -10,7 +10,7 @@ Glossary documentation
    sphinx/index
    docstring/index
    annotation/index
-   console/index
+   linux/index
    makefile/index
    git/index
    github/index

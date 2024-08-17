@@ -1,5 +1,5 @@
 .idea/
-.venv/
+.venv_glossary/
 __pycache__/
 docs/build/
 docs/source/generated/
