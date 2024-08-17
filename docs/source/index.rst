@@ -7,6 +7,7 @@ Glossary documentation
 
    python/index
    django/index
+   docker/index
    sphinx/index
    docstring/index
    annotation/index
