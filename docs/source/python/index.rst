@@ -7,6 +7,7 @@ Python
 
    install/index
    repl
+   pip
    oop/index
    exceptions
 

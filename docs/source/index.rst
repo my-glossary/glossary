@@ -6,8 +6,10 @@ Glossary documentation
    :maxdepth: 2
 
    python/index
+   python_examples/index
    django/index
    docker/index
+   redis/index
    sphinx/index
    docstring/index
    annotation/index
