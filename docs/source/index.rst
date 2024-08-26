@@ -21,5 +21,6 @@ Glossary documentation
    postgres/index
    tests/index
    regexr/index
+   devops/index
 
    toga/index
