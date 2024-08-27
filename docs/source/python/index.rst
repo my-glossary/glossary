@@ -10,5 +10,5 @@ Python
    pip
    oop/index
    exceptions
-
+   typing
    property
