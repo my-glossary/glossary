@@ -23,5 +23,4 @@ Glossary documentation
    regexr/index
    devops/index
    sources/index
-
-   toga/index
+   applications/index

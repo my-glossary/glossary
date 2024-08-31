@@ -4,7 +4,7 @@ Tutorial
 
 `BeeWare Tutorial <https://docs.beeware.org/en/latest/#welcome-to-the-beeware-tutorial>`_
 
-`Toga 0.4.6.dev306+gf564dba0e <https://toga.readthedocs.io/en/latest/reference/api/index.html>`_
+`Toga latest dev docs <https://toga.readthedocs.io/en/latest/reference/api/index.html>`_
 
 `The Pack Style Engine <https://toga.readthedocs.io/en/latest/reference/style/pack.html#the-pack-style-engine>`_
 
@@ -12,6 +12,30 @@ Tutorial
 
 `Eddington — инструмент для подбора данных, основанный на Toga и Briefcase.
 <https://github.com/EddLabs/eddington-gui/blob/develop/src/eddington_gui/app.py>`_
+
+
+Install the BeeWare tools
+=========================
+
+`<https://docs.beeware.org/en/latest/tutorial/tutorial-1.html#install-the-beeware-tools>`_
+
+.. code-block:: python
+
+   python -m pip install briefcase
+
+Bootstrap a new project
+=======================
+
+`<https://docs.beeware.org/en/latest/tutorial/tutorial-1.html#bootstrap-a-new-project>`_
+
+.. code-block:: python
+
+   briefcase new
+
+Run the app in developer mode
+=============================
+
+`<https://docs.beeware.org/en/latest/tutorial/tutorial-1.html#run-the-app-in-developer-mode>`_
 
 .. code-block:: console
    :caption: Use developer mode
@@ -23,7 +47,9 @@ Creating your application scaffold
 
 `<https://docs.beeware.org/en/latest/tutorial/tutorial-3.html#creating-your-application-scaffold>`_
 
-briefcase create
+.. code-block:: python
+
+   briefcase create
 
 Building your application
 =========================
@@ -126,7 +152,6 @@ Run the app on a physical device
 --------------------------------
 
 .. code-block:: console
-   :caption:
 
    briefcase run android
 
@@ -154,6 +179,8 @@ Updating dependencies
 =====================
 
 `<https://docs.beeware.org/en/latest/tutorial/tutorial-7.html#updating-dependencies>`_
+
+::
 
    requires = [
        "httpx",
