@@ -73,7 +73,7 @@ We need to add the remote origin to the project
 
    git commit -m "first commit"
    git branch -M main
-   git remote add origin git@github.com-454004:svmikurov/new-project.git
+   git remote add origin git@github.com-454004:svmikurov/{new-project-name}.git
    git push -u origin main
 
 .. code-block:: console
@@ -81,11 +81,8 @@ We need to add the remote origin to the project
 
    git config user.email "454004@mail.ru"
    git config user.name "Sergei Mikurov"
-
-   git remote add origin git@github.com-454004:454004
-   # or
-   git remote set-url origin git@github.com-454004:svmikurov/project-name.git
-   git push --force
+   git remote set-url origin git@github.com-454004:svmikurov/{project-name}.git
+   git push
 
 .. code-block:: console
    :caption: Для repo на аккаунте mikurov_sergey

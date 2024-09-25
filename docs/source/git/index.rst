@@ -7,6 +7,7 @@ Git
 
    branches
    commits
+   stash
    show
    grep
    origin
