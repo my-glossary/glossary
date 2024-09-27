@@ -30,6 +30,10 @@ Link::
 
    :ref:`Sphinx configuration`
 
+Link, if config.py: autosectionlabel_prefix_document = True::
+
+   :ref:`subroot/path/doc:Sphinx configuration`
+
 Context::
 
    To configure Sphinx, see the :ref:`Sphinx configuration` and
