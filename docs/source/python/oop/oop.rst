@@ -4,6 +4,12 @@ Class
 
 Классы позволяют реализовать абстракцию.
 
+Explanations
+============
+
+`Multi inherit explanation №1 <https://stackoverflow.com/questions/9575409/calling-parent-class-init-with-multiple-inheritance-whats-the-right-way>`_
+
+
 ============
 Наследование
 ============
